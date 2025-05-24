@@ -1,0 +1,3 @@
+para que herede tamaño de letra se coloca el font size pero en vez de colocar tamaño de pixeles se coloca inherit
+
+Para color de fondo es con "background color".

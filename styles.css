@@ -1,0 +1,39 @@
+* {
+    margin: 15px;
+    padding: 20px;
+}
+.nav{
+  
+    background-color: rgb(208, 98, 218);
+}
+
+h1{
+    color: #4e1e35;
+    font-family:Courier;
+    font-size: 80px;
+}
+h2{
+    font-weight: 100;
+    color: rgba(66, 142, 209, 0.664);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+
+}
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    color: chocolate;
+}
+
+.titulo{
+    color: rgb(18, 104, 104);
+    font-size: 25px;
+}
+#sub{
+    color: blue;
+}
+#footer{
+    color: chartreuse;
+    padding: 18px;
+    background-color: cadetblue;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Esta etiqueta crea el formulario -->
+    <form action="">
+    <label for="nombre">
+        <span>¿Cual es tu nombre?<br></span>
+        <input type="text" id="nombre"name="nombre" placeholder="">
+    </label>
+    <br>
+    <label for="correo">
+        <span>Email<br></span>
+        <input type="email" id="correo" name="correo">
+    </label>
+    <br>
+    <label for="cedula">
+        <span> Número documento<br></span>
+        <input type="number" id="cedula" name="cedula">
+    </label>
+    <br>
+    <label for="fecha">
+        <span>Fecha de nacimiento:<br></span>
+        <input type="date" id="fecha" name="fecha">
+    </label>
+        <br><br>
+    <select>
+        <option value="disabled select">-- Elige una opción --</option>
+        <option value="Arroz">Arroz</option>
+        <option value="Pasta">Pasta</option>
+        <option value="Chicharron">Chicharron</option>
+    </select>
+    <br>
+    <input list="comida">
+    <datalist id="comida">
+        <option value="Arroz"></option>
+        <option value="Pasta"></option>
+        <option value="Chicharron"></option>
+    </datalist>
+    <br>
+    <input type="submit" value="send1">
+    <input type="submit" value="send">    
+</form>
+</body>
+</html>
